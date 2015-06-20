@@ -7,6 +7,8 @@ require_relative "Member.rb"
 
 class Band
 
+	attr_reader :name
+	
 	def initialize(members, songs, name)
 		@members = members
 		@songs = songs
@@ -18,7 +20,7 @@ class Band
 #Play it
 	def play_all
 		@songs.each do | song |
-			puts "Playing: #{song}"
+			puts "#{@name} are playing: #{song}"
 			puts " "
 			members_play
 			puts " "
