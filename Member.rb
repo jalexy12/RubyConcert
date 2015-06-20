@@ -3,6 +3,7 @@
 #Position
 
 class Member
+	
 	def initialize(name, position, instrument)
 		@name = name
 		@position = position
