@@ -16,13 +16,6 @@ class Member
 end
 
 
-member1 = Member.new("Ted", "Drummmer", "Drums")
-member2 = Member.new("Bill", "Vocalist", "His voice of an angel")
-member3 = Member.new("John", "Guitarist", "Guitar")
-
-member3.play_instrument
-member2.play_instrument
-member1.play_instrument
 
 
 
